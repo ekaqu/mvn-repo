@@ -14,18 +14,4 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>apache.snapshot</id>
-      <url>https://repository.apache.org/snapshots</url>
-    </repository>
-  </repositories>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.apache.hive</groupId>
-      <artifactId>hive-metastore</artifactId>
-      <version>0.8.1-SNAPSHOT</version>
-    </dependency>
-  </dependencies>
 </project>
