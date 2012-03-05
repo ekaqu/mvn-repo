@@ -21,22 +21,4 @@
       <url>https://github.com/ekaqu/mvn-repo/raw/master/snapshot</url>
     </repository>
   </repositories>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.apache.hcatalog</groupId>
-      <artifactId>hcatalog</artifactId>
-      <version>${hcatalog.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.hcatalog</groupId>
-      <artifactId>hcatalog-server-extensions</artifactId>
-      <version>${hcatalog.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.hcatalog</groupId>
-      <artifactId>hbase-storage-driver</artifactId>
-      <version>${hcatalog.version}</version>
-    </dependency>
-  </dependencies>
 </project>
