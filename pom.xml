@@ -18,7 +18,7 @@
   <repositories>
     <repository>
       <id>ekaqu.snapshot</id>
-      <url>https://github.com/ekaqu/mvn-repo/raw/master/snapshot</url>
+      <url>https://github.com/ekaqu/mvn-repo/raw/master/snapshots</url>
     </repository>
   </repositories>
 </project>
