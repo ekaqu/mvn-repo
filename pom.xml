@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hcatalog.version>0.4.0-SNAPSHOT</hcatalog.version>
   </properties>
 
   <repositories>
@@ -25,7 +26,17 @@
     <dependency>
       <groupId>org.apache.hcatalog</groupId>
       <artifactId>hcatalog</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${hcatalog.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hcatalog</groupId>
+      <artifactId>hcatalog-server-extensions</artifactId>
+      <version>${hcatalog.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hcatalog</groupId>
+      <artifactId>hbase-storage-driver</artifactId>
+      <version>${hcatalog.version}</version>
     </dependency>
   </dependencies>
 </project>
